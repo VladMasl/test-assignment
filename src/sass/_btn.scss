@@ -1,0 +1,19 @@
+button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  width: 100px;
+  height: 34px;
+  border-radius: 25px;
+  background-color: #f4e041;
+  border: none;
+  color: #000000de;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    background-color: #ffe302;
+  }
+}
